@@ -1,6 +1,14 @@
 import streamlit as st
 import pickle
 import pandas as pd
+
+
+st.set_page_config(
+    page_title="IPL Win Predictor",
+    page_icon="throw.png",   # Emoji icon
+    layout="centered"
+)
+
 teams=['Sunrisers Hyderabad',
  'Mumbai Indians',
  'Royal Challengers Bengaluru',
